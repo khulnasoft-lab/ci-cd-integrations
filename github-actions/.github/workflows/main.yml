@@ -21,7 +21,7 @@ jobs:
       REPO: demo-app
       KHULNASOFT_CONSOLE_URL: 1.1.1.1
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     # Build docker image for service
     - name: Build docker image
